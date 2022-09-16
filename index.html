@@ -8,102 +8,253 @@
     <title>Viaggio a Londra</title>
     <link rel="stylesheet" href="style.css" type="text/css">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,500;0,700;0,800;0,900;1,500;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,500;0,700;0,800;0,900;1,500;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
 </head>
 
 <body>
 
-    <!-- testata ---------->
+    <!-- HEADER ---------->
 
     <header>
-    <hgroup>
-        <h1>Il Tuo viaggio a londra</h1>
-        <img src="img/title.png" alt="Logo "il tuo viaggio a londra">
-    </hgroup>
+        <hgroup>
+            <h1>Il Tuo viaggio a londra</h1>
+            <img src="img/title.png" alt="Logo " il tuo viaggio a londra">
+        </hgroup>
     </header>
 
+
+
+    <!-- TABLE 2.0 -------->
     <main>
-        <!-- tabella spese -------->
-        <h2> Le mie spese</h2>
+        <div id="table_container">
 
-        <table>
-         <th>
-            <tr>
-                <th>Numero</th>
-                <th>Descrizione</th>
-                <th>Costo</th>
-            </tr>
-         </th>
-         <tbody>
-            <tr>
-                <td>1</td>
-                <td>biglietto aereo</td>
-                <td>120&euro;</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>biglietto aereo</td>
-                <td>120&euro;</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>biglietto aereo</td>
-                <td>120&euro;</td>
-            </tr>
-         </tbody>
-         <tfoot>
-            <tr>
-                <td colspan="2">Totale</td>
-                <td>360&euro;</td>
-            </tr>
-         </tfoot>
-        </table>
-        
-        <hr>
+            <table class="table_0grid">
+                <thead>
 
-        <!-- Itinerario  ------>
-        <h2>Cose da fare</h2>
+                    <tr>
+                        <th> </th>
+                    </tr>
 
-        <ul>
-            <li>Visitare la Tower of London &#10008;</li>
-            <li>Visitare greenwitch &#10004;</li>
-            <li>Ascoltare un artista di strada a Covent Garden &#10004; </li>
-            <li>Mangiare il tipico Fish and Chips inglese &#10008; </li>
-        </ul>
+                    <tr>
+                        <th>choose your plan</th><!-- span class -->
+                    </tr>
+                </thead>
 
-        <hr>
+                <tbody>
+                    <tr>
+                        <td>travel by</td>
+                    </tr>
+                    <tr>
+                        <td>Location</td><!-- stars -->
+                    </tr>
+                    <tr>
+                        <td>Included experience</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th></th>
+                    </tr>
+                </tfoot>
+            </table>
 
-       <!-- Info ------>
-        <h2>Info utili:</h2>
 
-        <ol>
-            <li>Numeri utili di emergenza</li>
-            <ul>
-                <li><strong>999</strong> - Emergenza</li>
-                <li><strong>101</strong> - Numero Polizia</li>
-                <li><strong>111</strong> - Numero Assistenza Medica</li>
-            </ul>
-            <li>Hotel</li>
-            <ul>
-                <li><strong>Nome Hotel:</strong> Buckingham Palace</li>
-                <li><strong>Indirizzo Hotel:</strong> Westminister, London SW1A1AA, Regno Unito</li>
-            </ul>
-            <li>Aereo</li>
-            <ul>
-                <li><strong>Volo di Andata:</strong>Y1234X, ore 9:30 da Milano Malpensa</li>
-                <li><strong>Volo di Ritorno:</strong>Y1236X, ore 18:30 da London Heathrow</li>
-                
-            </ul>
-        </ol>
-        <hr>
+            <table class="table_1grid">
+                <thead>
 
-        <h2>Le foto</h2>
-        <img src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg" alt="St. Paul's Cathedral">
-        <img src="https://pokerstarscareers.com/wp-content/uploads/2020/01/London-Wider-Area-e1597319992670-400x400.jpg" alt="london Covent Garden">
+                    <tr>
+                        <th>economy</th>
+                    </tr>
+                    <tr>
+                        <th>950</th><!-- span class -->
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>arrival:20/09/2022</li>
+                                <li>departure:24/09/2022</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a
+                                href="https://www.tripadvisor.it/Hotel_Review-g186338-d224776-Reviews-The_Lonsdale_Hotel-London_England.html">The
+                                Lonsdale Hotel</a>
+                        </td><!-- stars -->
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>London Eye</li>
+                                <li>Westminster Abbey</li>
+                                <li>SEA LIFE London</li>
+                                <li>Shrek's Adventure! London</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th> <button>Buy Now!</button></th>
+                    </tr>
+                </tfoot>
+            </table>
+
+
+            <table class="table_2grid">
+                <thead>
+
+                    <tr>
+                        <th id="discount">standard</th>
+                    </tr>
+                    <tr>
+                        <th>1250</th><!-- span class -->
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>arrival:18/09/2022</li>
+                                <li>departure:24/09/2022</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <a
+                                href="https://www.tripadvisor.it/Hotel_Review-g186338-d193133-Reviews-Holiday_Inn_London_Kensington_Forum_an_IHG_hotel-London_England.html">
+                                Holiday Inn London </a>
+                        </td><!-- stars -->
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>London Eye</li>
+                                <li>Warner Bros. Studio Tur London</li>
+                                <li>Tower of London</li>
+                                <li>Westminster Abbey</li>
+                                <li>SEA LIFE London</li>
+                                <li>The View From The Shard</li>
+
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th> <button>Buy Now!</button></th>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <table class="table_3grid">
+                <thead>
+
+                    <tr>
+                        <th>Luxury</th>
+                    </tr>
+                    <tr>
+                        <th>1970</th><!-- span class -->
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>arrival:18/09/2022</li>
+                                <li>departure:23/09/2022</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a
+                                href="https://www.tripadvisor.it/Hotel_Review-g186338-d559155-Reviews-Taj_51_Buckingham_Gates_Suites_and_Residences-London_England.html">
+                                Buckingham Gates Suites</a></td><!-- stars -->
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>London Eye</li>
+                                <li>Warner Bros. Studio Tur London</li>
+                                <li>Buckingham Palace</li>
+                                <li>Tower of London</li>
+                                <li>Emirates Air Line cable car</li>
+                                <li>Westminster Abbey</li>
+                                <li>SEA LIFE London</li>
+                                <li>The View From The Shard</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th> <button>Buy Now!</button></th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
     </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 
+    
+    <h2 id="clear">Info utili:</h2>
+
+    <ol>
+        <li>Numeri utili di emergenza</li>
+        <ul>
+            <li><strong>999</strong> - Emergenza</li>
+            <li><strong>101</strong> - Numero Polizia</li>
+            <li><strong>111</strong> - Numero Assistenza Medica</li>
+        </ul>
+        <li>Hotel</li>
+        <ul>
+            <li><strong>Nome Hotel:</strong> Buckingham Palace</li>
+            <li><strong>Indirizzo Hotel:</strong> Westminister, London SW1A1AA, Regno Unito</li>
+        </ul>
+        <li>Aereo</li>
+        <ul>
+            <li><strong>Volo di Andata:</strong>Y1234X, ore 9:30 da Milano Malpensa</li>
+            <li><strong>Volo di Ritorno:</strong>Y1236X, ore 18:30 da London Heathrow</li>
+
+        </ul>
+    </ol>
+    <hr>
+
+    <h2>Le foto</h2> -->
+    <img src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg"
+        alt="St. Paul's Cathedral">
+    <img src="https://pokerstarscareers.com/wp-content/uploads/2020/01/London-Wider-Area-e1597319992670-400x400.jpg"
+        alt="london Covent Garden">
+
 
 </body>
 

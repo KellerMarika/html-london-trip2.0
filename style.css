@@ -7,17 +7,23 @@ body{
     background-color: rgb(240, 233, 222);
 }
 
+/* HEADER */
+
 header{
-background-color: aqua;
-width: 80%;
+width: 940px;
 height: 400px;
 margin: auto;
 margin-top: 100PX;
+border: 3px solid black;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
 
 background-image: url(img/original-london-sightseeing-tour-24-ore.jpg);
 background-repeat: no-repeat;
-background-size: 100% 140%;
-background-position: 0px -70px;}
+background-size: 101% 140%;
+background-position: 0px -70px;
+/* max-width: 150%; */
+}
 
 
 header h1{
@@ -30,9 +36,60 @@ display: block;
     position: relative;
     top: 50px;
     left: 40px;
-    
-   
- 
-    
+    /* max-width: 150%; */
+        
 }
+
+/* TABELLA 2.0 */
+
+#table_container{
+    background-color: aqua;
+    width: 940px;
+    margin: auto;
+}
+
+ main table {
+    float: left;
+}
+/* misure table */
+
+.table_0grid{
+    width:16% ;
+}
+
+.table_1grid,.table_2grid,.table_3grid{
+    width: 28%;
+}
+
+table{
+    border-spacing: 0px;
+    border-collapse:collapse ;
+}
+
+table thead tr{
+    background-image: linear-gradient(rgb(189, 119, 255), rgb(109, 13, 153)); 
+    color: antiquewhite;
+    text-transform: uppercase;
+    
+    text-shadow: 0px 2px  rgba(76, 15, 104, 0.829) ;
+    height: 40px;
+    border-bottom: 1px solid rgb(56, 10, 75);
+       
+}
+
+thead tr:last-of-type{
+    height: 100px;
+    font-size: ;
+}
+table tbody tr{
+    background-color: rgb(204, 203, 201);
+    font-family: 'Alegreya SC', serif;
+}
+
+table tbody tr:nth-child(2n){
+    background-color:rgb(172, 171, 169);
+}
+
+
+
 
