@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(240, 233, 222);
+}
+
+header{
+background-color: aqua;
+width: 80%;
+height: 400px;
+margin: auto;
+margin-top: 100PX;
+
+background-image: url(img/original-london-sightseeing-tour-24-ore.jpg);
+background-repeat: no-repeat;
+background-size: 100% 140%;
+background-position: 0px -70px;}
+
+
+header h1{
+    text-indent: -9999px;
+}
+header img{
+  width: 620px;
+    margin: auto;
+display: block;
+    position: relative;
+    top: 50px;
+    left: 40px;
+    
+   
+ 
+    
+}
+
