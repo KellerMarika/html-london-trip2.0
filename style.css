@@ -84,7 +84,7 @@ table{
 /* h thead... */
 
 table thead tr{
-    background-image: linear-gradient(rgba(158, 99, 197, 0.692), hsla(266, 76%, 64%, 0.603),hsla(268, 93%, 26%, 0.555));
+    background-color: rgba(124, 74, 165, 0.932);
     color:  rgb(252, 230, 176);
     font-family: 'Economica', sans-serif;
     font-size: 26px;
@@ -93,9 +93,11 @@ table thead tr{
     border-bottom: 1px solid rgb(56, 10, 75);
        
 }
+table thead tr:first-child{
+    background-color: hsla(246, 42%, 33%, 0.795);}
 
 .table_0grid thead tr:last-of-type{
-    height: 100px;
+   height: 100px;
 }
 
 .dollar{
