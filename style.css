@@ -3,9 +3,6 @@
     box-sizing: border-box;
     
 }
-body{
-   /*  background-color: rgb(240, 233, 222); */
-}
 
 /* HEADER */
 
@@ -13,7 +10,7 @@ header{
 width: 80%;
 height: 400px;
 margin: auto;
-margin-top: 100PX;
+margin-top: 50pX;
 border: 3px solid black;
 border-top-left-radius: 40px;
 border-top-right-radius: 40px;
@@ -50,24 +47,26 @@ display: block;
 
 .table_0grid_container{
     width:16% ;
-    height: 600px;
+    height: 655px;
     float: left;
-}
+   }
 
 .table_1grid_container,
 .table_2grid_container,
 .table_3grid_container{
     width: 28%;
-    height: 600px;
+    height: 655px;
     float: left;
-}
+ }
 
 .table_0grid{
     width:100% ;
+    height: 100%;
 }
 
 .table_1grid,.table_2grid,.table_3grid{
     width: 100%;
+    height: 100%;
 }
 
 /* spaziatura */
@@ -103,7 +102,7 @@ table thead tr{
     background-color: rgb(159, 101, 235);
     color:  rgb(252, 230, 176);
     font-family: 'Economica', sans-serif;
-    font-size: 26px;
+    font-size: 30px;
     text-shadow: 0px 1px  rgba(76, 15, 104, 0.829) ;
     height: 40px;
     border-bottom: 1px solid rgb(56, 10, 75);
@@ -113,11 +112,11 @@ table thead tr:first-child{
     background-color: hsl(246, 23%, 40%);}
 
 .table_0grid thead tr:last-of-type{
-   height: 100px;
+   height: 85px;
 }
 
 .dollar{
-    height: 100px;
+    height: 85px;
     font-size: 52px;
 }
 
@@ -137,40 +136,46 @@ table thead tr:first-child{
  /* tbody */
 
 table tbody tr{
-    background-color: hsl(0, 0%, 95%);
+    background-color: hsl(0, 0%, 95%,0.5);
     font-family: 'Alegreya SC', serif;
+    font-size: 24px;
+}
+table tbody td{
+    padding: 10px 0px 10px 20px;
 }
 
 table tbody tr:nth-child(2n){
-    background-color: hsl(0, 0%, 89%);
+    background-color: hsl(0, 0%, 89%, 0.5);
 }
 
 tbody tr:nth-of-type(-n+2){
-    height: 70px;
+    height: 60px;
 }
 
 tbody tr:last-of-type{
-       height: 220px;
+       height: 200px;
 }
 
 .table_0grid tbody td{
-    font-size: 22px;
+    font-size: 32px;
+    font-weight: bold;
     text-align: center;
 }
 
 .table_2grid tbody tr{
-    background-color: hsl(0, 0%, 98%);
+    background-color: hsla(0, 0%, 98%, 0.5);
        font-family: 'Alegreya SC', serif;
    }
    
    .table_2grid tbody tr:nth-child(2n){
-       background-color: hsl(0, 0%, 92%);}
+       background-color: hsl(0, 0%, 92%,0.5);}
 
 /* star ..................*/
 
 td.link{  
     text-align: center;
-    font-size: 18px;
+    font-size: 26px;
+    font-weight: bold;
     }
     
     .star{
@@ -190,7 +195,7 @@ td.link{
     border-radius: 20px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight:bold;
-    font-size: 17px;
+    font-size: 26px;
  }
 
  table tfoot tr{
@@ -207,19 +212,73 @@ section{
     height: 100px;
 }
 
+/* hover ........... */
+
+
 .table_1grid:hover,
 .table_2grid:hover,
 .table_3grid:hover{
     width: 110%;
-    height: 600px;
-    z-index: 2000;
+    height: 700px;
+    z-index: 2;
     box-shadow: 0px 0px 40px 1px rgba(0, 0, 0, 0.562);
     position: relative;
     top: -10px;       
 }
 
+.table_1grid:hover::after{
+    content: "";
+    z-index: -2;
+  background: linear-gradient(to top, rgba(255,255,255,0)70%,
+           rgba(221, 221, 221, 0.547)), url(img/L1.jpg);
+    position: absolute;
+    top: 120px;
+    left: 0;
+    width: 100%;
+    height: 510px;
+    background-repeat: no-repeat;
+    background-size: 121.8%;
+    background-position:-40px 0px ;    
+
+  }
 
 
-/*  div table grid container */
+
+
+
+.table_2grid:hover::after{
+       content: "";
+       z-index: -2;
+     background: linear-gradient(to top, rgba(255,255,255,0)70%,
+              rgba(221, 221, 221, 0.547)), url(img/L2.jpg);
+       position: absolute;
+       top: 120px;
+       left: 0;
+       width: 100%;
+       height: 510px;
+       background-repeat: no-repeat;
+       background-size: 121.8%;
+       background-position:-40px 0px ;    
+
+     }
+     
+.table_3grid:hover::after{
+       content: "";
+       z-index: -2;
+     background: linear-gradient(to top, rgba(255,255,255,0)70%,
+              rgba(221, 221, 221, 0.547)), url(img/L3.jpg);
+       position: absolute;
+       top: 120px;
+       left: 0;
+       width: 100%;
+       height: 510px;
+       background-repeat: no-repeat;
+       background-size: 121.8%;
+       background-position:-40px 0px ;    
+     }
+  
+
+
+
 
 
