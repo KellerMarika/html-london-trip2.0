@@ -10,13 +10,13 @@ body{
 /* HEADER */
 
 header{
-width: 940px;
+width: 80%;
 height: 400px;
 margin: auto;
 margin-top: 100PX;
 border: 3px solid black;
-border-top-left-radius: 15px;
-border-top-right-radius: 15px;
+border-top-left-radius: 40px;
+border-top-right-radius: 40px;
 
 background-image: url(img/original-london-sightseeing-tour-24-ore.jpg);
 background-repeat: no-repeat;
@@ -44,7 +44,7 @@ display: block;
 
 /* dimensioni */
 #table_container{
-    width: 940px;
+    width: 80%;
     margin: auto;
 }
 
@@ -61,9 +61,12 @@ display: block;
 
 table{
     float: left;
+    z-index:-1;
     border-spacing: 0px;
     border-collapse:collapse ;
     border-bottom: 1px solid  rgb(56, 10, 75);
+
+    
 }
 
 /* bordi */
@@ -84,7 +87,7 @@ table{
 /* h thead... */
 
 table thead tr{
-    background-color: rgba(124, 74, 165, 0.932);
+    background-color: rgba(159, 101, 235, 0.932);
     color:  rgb(252, 230, 176);
     font-family: 'Economica', sans-serif;
     font-size: 26px;
@@ -94,7 +97,7 @@ table thead tr{
        
 }
 table thead tr:first-child{
-    background-color: hsla(246, 42%, 33%, 0.795);}
+    background-color: hsl(246, 23%, 40%);}
 
 .table_0grid thead tr:last-of-type{
    height: 100px;
@@ -182,6 +185,7 @@ td.link{
     border-top: 1px solid rgb(172, 171, 169);
     border-bottom: 1px solid rgb(172, 171, 169);
     background-image: linear-gradient(hsl(0, 0%, 97%), hsl(0, 0%, 87%));
+    
 
  }
 
@@ -190,3 +194,15 @@ section{
     height: 100px;
 }
 
+.table_2grid:hover,
+.table_3grid:hover,
+.table_3grid:hover{
+    width: 32%;
+    height: 620px;
+    z-index: 2;
+    box-shadow: 0px 0px 40px 1px rgba(0, 0, 0, 0.562);
+    position: relative;
+    top: -20px;
+    
+    
+}
