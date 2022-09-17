@@ -4,7 +4,7 @@
     
 }
 body{
-    background-color: rgb(240, 233, 222);
+   /*  background-color: rgb(240, 233, 222); */
 }
 
 /* HEADER */
@@ -84,7 +84,7 @@ table{
 /* h thead... */
 
 table thead tr{
-    background-image: linear-gradient(rgb(189, 119, 255), rgb(109, 13, 153));
+    background-image: linear-gradient(rgba(158, 99, 197, 0.692), hsla(266, 76%, 64%, 0.603),hsla(268, 93%, 26%, 0.555));
     color:  rgb(252, 230, 176);
     font-family: 'Economica', sans-serif;
     font-size: 26px;
@@ -119,12 +119,12 @@ table thead tr{
  /* tbody */
 
 table tbody tr{
-    background-color: rgb(204, 203, 201);
+    background-color: hsl(0, 0%, 95%);
     font-family: 'Alegreya SC', serif;
 }
 
 table tbody tr:nth-child(2n){
-    background-color:rgb(172, 171, 169);
+    background-color: hsl(0, 0%, 89%);
 }
 
 tbody tr:nth-of-type(-n+2){
@@ -140,7 +140,15 @@ tbody tr:last-of-type{
     text-align: center;
 }
 
-/* star */
+.table_2grid tbody tr{
+    background-color: hsl(0, 0%, 98%);
+       font-family: 'Alegreya SC', serif;
+   }
+   
+   .table_2grid tbody tr:nth-child(2n){
+       background-color: hsl(0, 0%, 92%);}
+
+/* star ..................*/
 
 td.link{  
     text-align: center;
@@ -171,12 +179,12 @@ td.link{
     height: 70px;
     border-top: 1px solid rgb(172, 171, 169);
     border-bottom: 1px solid rgb(172, 171, 169);
-    background-image: linear-gradient(rgb(204, 203, 201),rgb(172, 171, 169));
+    background-image: linear-gradient(hsl(0, 0%, 97%), hsl(0, 0%, 87%));
 
  }
 
-
-
-
-
+section{
+    width: 100px;
+    height: 100px;
+}
 
