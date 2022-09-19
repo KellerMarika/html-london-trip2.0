@@ -48,8 +48,11 @@ display: block;
     margin: auto;
 }
 
-.table_0grid_container{
-    width:16% ;
+
+.table_0grid_container,
+.table_1grid_container,
+.table_2grid_container,
+.table_3grid_container{
     height: 600px;
     float: left;
 }
@@ -57,16 +60,17 @@ display: block;
 .table_1grid_container,
 .table_2grid_container,
 .table_3grid_container{
-    width: 28%;
-    height: 600px;
-    float: left;
+    width: 28%;}
+
+.table_0grid_container{
+    width:16% ;
+   
 }
 
-.table_0grid{
-    width:100% ;
-}
-
-.table_1grid,.table_2grid,.table_3grid{
+.table_0grid,
+.table_1grid,
+.table_2grid,
+.table_3grid{
     width: 100%;
 }
 
@@ -109,10 +113,11 @@ table thead tr{
     border-bottom: 1px solid rgb(56, 10, 75);
        
 }
-table thead tr:first-child{
-    background-color: hsl(246, 23%, 40%);}
+.plan1{
+    background-color: hsl(246, 23%, 40%);
+}
 
-.table_0grid thead tr:last-of-type{
+.plan2{
    height: 100px;
 }
 
@@ -136,22 +141,24 @@ table thead tr:first-child{
 
  /* tbody */
 
+
+.check-in_out,
+.location{
+    height: 70px;
+}
+.experiences{
+       height: 220px;
+}
+
+
 table tbody tr{
     background-color: hsl(0, 0%, 95%);
     font-family: 'Alegreya SC', serif;
 }
 
-table tbody tr:nth-child(2n){
-    background-color: hsl(0, 0%, 89%);
-}
-
-tbody tr:nth-of-type(-n+2){
-    height: 70px;
-}
-
-tbody tr:last-of-type{
-       height: 220px;
-}
+.location{
+ background-color: hsl(0, 0%, 89%);
+ }
 
 .table_0grid tbody td{
     font-size: 22px;
